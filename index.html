@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/f8e9ef1c99.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="menu">
+      <a href="#" class="menu__item">
+        <i class="fa-solid fa-tv"></i>
+        <span>Live TV</span>
+      </a>
+      <a href="#" class="menu__item">
+        <i class="fa-solid fa-clapperboard"></i>
+        <span>Movies</span>
+      </a>
+      <a href="#" class="menu__item">
+        <i class="fa fa-play-circle-o"></i>
+        <span>TV Shows</span>
+      </a>
+      <a href="#" class="menu__item">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <span>Search</span>
+      </a>
+      <a href="#" class="menu__item">
+        <i class="fa-solid fa-gear"></i>
+        <span>Setings</span>
+      </a>
+      <a href="#" class="menu__item">
+        <i class="fa-solid fa-right-from-bracket"></i>
+        <span>Log Out</span>
+      </a>
+    </div>
+    <section class="background-section"></section>
+    <section class="movie-info">
+      <h4 class="movie-info__name">
+        Зверь <span class="movie-info__year">2022</span> США
+      </h4>
+      <h4 class="movie-info__raiting">
+        <i class="fa fa-star"></i> <span>5.60</span>
+      </h4>
+      <p class="movie-info__director">
+        director: Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+      </p>
+      <p class="movie-info__cast">
+        cast: Lorem ipsum dolor sit amet, consectetur adipisicing elit.Dolorem,
+        quis ad error ducimus repellat ab eius temporibus eaque earum
+        architecto?
+      </p>
+      <p class="movie-info__paragraph">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+        impedit, culpa, tempora, voluptates eos aut fuga accusantium quisquam
+        rerum dolor qui harum. Ad ex adipisci quaerat, doloribus, in non, iure
+        consequuntur delectus ratione exercitationem ullam inventore beatae
+        ducimus sunt dolorum? Numquam hic eius quisquam esse iusto nostrum atque
+        exercitationem voluptates!
+      </p>
+    </section>
+    <section class="movies"></section>
+    <section class="video-container" style="display: none">
+      <div class="c-video">
+        <video class="video" autoplay></video>
+        <button id="back"><i class="fa fa-arrow-left"></i> Back</button>
+        <div class="controls">
+          <div class="c-top">
+            <div class="buttons">
+              <button id="play-pause">Pause</button>
+              <button id="bitrate">Bitrate</button>
+            </div>
+          </div>
+          <div class="c-bottom">
+            <div class="video-bar">
+              <div class="bar"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>
